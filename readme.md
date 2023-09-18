@@ -149,7 +149,7 @@ Now you will see the data inside the tag.
 
 > `Dummy HTML Page`
 
-Here, `soup.title`***`.string`*** is used which returns the data inside the tag.
+Here, `soup.title`.string`` is used which returns the data inside the tag.
 
 You can also change whats inside the tag.
 

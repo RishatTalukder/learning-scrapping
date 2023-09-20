@@ -16,10 +16,18 @@ with open("dummy.html", "r") as f:
 # print(soup.title)
 
 # printing the string inside the title tag
-#print(soup.title.string)
+# print(soup.title.string)
 
 
-#changing whats inside the tag
+# changing whats inside the tag
 # soup.title.string = "New Title"
 # print(soup)
 
+# find() & find_all()
+# print(soup.find("p"))
+# print(soup.find_all("p"))
+
+# nested tags
+table = soup.find("table")
+table_tr = table.find_all("tr")[0]
+print(table_tr.find_all("th"))
